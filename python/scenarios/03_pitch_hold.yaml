@@ -1,0 +1,11 @@
+name: pitch hold
+mode: attitude
+duration_s: 8.0
+dt: 0.02
+targets:
+  target_pitch_deg: 5.0
+  target_roll_deg: 0.0
+checks:
+  final_pitch_abs_error_max_deg: 1.5
+  max_abs_pitch_deg: 12.0
+  max_abs_roll_deg: 2.0

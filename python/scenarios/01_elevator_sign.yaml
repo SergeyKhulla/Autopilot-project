@@ -1,0 +1,8 @@
+name: elevator sign check
+mode: fixed_surface
+duration_s: 2.0
+dt: 0.02
+fixed_elevator: -0.25
+fixed_aileron: 0.0
+checks:
+  final_pitch_min_deg: 2.0

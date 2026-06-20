@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simple_plane>
+  <description>
+    Minimal JSBSim-like reference model for the simple_autopilot_project.
+    The Python runner uses the same sign conventions and approximate dynamics.
+  </description>
+  <sign_conventions>
+    <elevator_positive>nose_up</elevator_positive>
+    <aileron_positive>roll_right</aileron_positive>
+    <left_aileron_mapping>+aileron</left_aileron_mapping>
+    <right_aileron_mapping>-aileron</right_aileron_mapping>
+  </sign_conventions>
+  <approximate_dynamics>
+    <pitch_rate_dot>35 * elevator - 2.5 * pitch_rate</pitch_rate_dot>
+    <roll_rate_dot>55 * aileron - 3.0 * roll_rate</roll_rate_dot>
+  </approximate_dynamics>
+</simple_plane>

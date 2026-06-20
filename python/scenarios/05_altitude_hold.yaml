@@ -1,0 +1,15 @@
+name: altitude hold after attitude loops
+mode: attitude
+duration_s: 16.0
+dt: 0.02
+throttle: 0.75
+enable_altitude_hold: true
+initial_state:
+  altitude_m: 70.0
+targets:
+  target_pitch_deg: 0.0
+  target_roll_deg: 0.0
+  target_altitude_m: 100.0
+checks:
+  final_altitude_abs_error_max_m: 3.0
+  max_abs_pitch_deg: 12.0

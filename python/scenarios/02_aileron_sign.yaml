@@ -1,0 +1,8 @@
+name: aileron sign check
+mode: fixed_surface
+duration_s: 2.0
+dt: 0.02
+fixed_elevator: 0.0
+fixed_aileron: 0.25
+checks:
+  final_roll_min_deg: 3.0
