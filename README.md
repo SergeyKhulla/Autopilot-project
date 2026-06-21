@@ -4,6 +4,7 @@
 
 Полное описание здесь:
 https://docs.google.com/document/d/1GMn2BQZU7wF96sRZ0T99AP8iQmtZ72mOpWAY7Uo9B7o/edit?usp=sharing
+(важно для полного понимания проекта)
 
 #### Идея была такая
 
